@@ -13,9 +13,8 @@ programa
 	leia(nota1_Aluno)
 	escreva("\n" + "Digite sua segunda nota: ")
 	leia(nota2_Aluno)
-	escreva("\n" + "------------ \n" +  "Aluno: " + nomeAluno + "\n" + "nota 1°: " + nota1_Aluno + "\n" + "Nota 2°: " + nota2_Aluno + "\n ------------ \n")
+	escreva("\n" + "-------------- \n" +  "Aluno: " + nomeAluno + "\n" + "nota 1°: " + nota1_Aluno + "\n" + "Nota 2°: " + nota2_Aluno + "\n -------------- \n")
 	}
-	
 	
 }
 /* $$$ Portugol Studio $$$ 
@@ -23,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 329; 
+ * @POSICAO-CURSOR = 464; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
