@@ -14,13 +14,13 @@ Você pode usar este repositório para acessar os exercícios e projetos desenvo
 
 Aqui está um horário de estudos sugerido para acompanhar as disciplinas do curso:
 
-- **Segunda-feira:** Logica e Pensamento Computacional 2
-- **Terça-feira:** Administração de Banco de Dados
-- **Quarta-feira:** Logica e Pensamento Computacional 1
-- **Quinta-feira:** Programação em Novas Tecnologias (Desktop)
-- **Sexta-feira:** Design Centrado no Usuário
-
-Este cronograma pode ser ajustado de acordo com suas necessidades e preferências pessoais. Lembre-se de dedicar tempo suficiente para revisar o material e praticar regularmente.
+| Dia da Semana | Disciplina                             |
+|---------------|----------------------------------------|
+| Segunda-feira | Lógica e Pensamento Computacional 2    |
+| Terça-feira   | Administração de Banco de Dados        |
+| Quarta-feira  | Lógica e Pensamento Computacional 1    |
+| Quinta-feira  | Programação em Novas Tecnologias (Desktop) |
+| Sexta-feira   | Design Centrado no Usuário             |
 
 ## Contribuições
 
