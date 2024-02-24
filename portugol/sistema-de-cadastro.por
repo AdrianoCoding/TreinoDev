@@ -2,6 +2,7 @@
 // Os dados não são enviados para nenhum banco de dados na nuvem. Não saem da maquina
 // Link deste projeto no github: https://github.com/AdrianoCoding/Estudos/blob/main/portugol/sistema-de-cadastro.por
 // Feito por Adriano J. (https://adrianojr.online)
+// Os dados coletados são salvos em variaveis, ou seja, ao desligar o computador, todos estes dados serão excluido automaticamente
 programa
 {
 	inteiro numeroCPF
@@ -15,14 +16,14 @@ programa
 		escreva("\n")
 		escreva("Digite seu CPF: ")
 		leia(numeroCPF)
-		escreva("Como é seu nome?:")
+		escreva("Como é seu nome?: ")
 		leia(nomeUsuario)
 		escreva("Qual é seu peso? : ")
 		leia(pesoUsuario)
 		escreva("Qual é sua altura? : ")
 		leia(alturaUsuario)
 		escreva("\n\n")
-		escreva("\n---\n Cadastro para: \nNome: " + nomeUsuario + "\nCPF: " + numeroCPF + "\npeso: " + pesoUsuario + "\naltura: " + alturaUsuario + "\n---\n")
+		escreva("\n---\n Relatorio de Cadastro para: \nNome: " + nomeUsuario + "\nCPF: " + numeroCPF + "\npeso: " + pesoUsuario + "\naltura: " + alturaUsuario + "\n---")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -30,7 +31,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 906; 
+ * @POSICAO-CURSOR = 486; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
