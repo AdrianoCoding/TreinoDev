@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" alt="ilustração de um computador" min-width="400px" max-width="400px" width="400px" align="right">
+</div>
+
 # Estudos de Desenvolvimento de Sistemas
 
 Este repositório contém materiais de estudo relacionados ao ensino técnico em desenvolvimento de sistemas. Aqui, você pode encontrar exercícios, projetos e outros recursos que podem ajudá-lo a aprender e aprimorar suas habilidades em programação e desenvolvimento de software.
