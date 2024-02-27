@@ -18,11 +18,20 @@ programa
 			escreva("| \\__/\\ | | | | | |____ | \\__/\\ | |_| | | |____ | | | | | |/ /  \\ \\_/ / | |\\ \\  | | | | \n")
 			escreva(" \\____/ \\_| |_/ \\_____/  \\____/  \\___/  \\_____/ \\_| |_/ |___/    \\___/  \\_| \\_| \\_| |_| \n")
 			// ascii de calculadora - Fim
-			escreva(" --==Calcule até seu futuro ==-- \n\n")
-			escreva("Digite o primeiro valor a se calcular: ")
+			
+			escreva("\n\n Digite o primeiro valor a se calcular: ")
 			leia(valor1)
 			escreva("Digite o segundo valor a se calcular: ")
 			leia(valor2)
+			soma = valor1 + valor2
+			escreva("\n")
+			escreva("-------------------------------------------- \n" + "A Soma entre " + valor1 + " e: " + valor2 + " é igual a: " + soma + "\n")
+			multi = valor1 * valor2
+			escreva("A multiplicação entre: " + valor1 + " e: " + valor2 + " é igual a: " + multi + "\n")
+			divisao = valor1 / valor2
+			escreva("A divisão entre: " + valor1 + " e: " + valor2 + " é igual a: " + divisao + "\n")
+			subtracao = valor1 - valor2
+			escreva("A subtração entre: " + valor1 + " e: " + valor2 + " é igual a: " + subtracao + "\n -------------------------------------------- \n")
 			
 			
 	}
@@ -32,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 588; 
+ * @POSICAO-CURSOR = 2012; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
