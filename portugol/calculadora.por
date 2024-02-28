@@ -6,7 +6,7 @@
 // Os dados coletados são salvos em variaveis, ou seja, ao desligar o computador, todos estes dados serão excluido automaticamente
 programa
 {
-	real valor1, valor2
+	real valor1, valor2
 	real soma, multi, divisao, subtracao
 	funcao inicio()
 	{
@@ -21,17 +21,17 @@ programa
 			
 			escreva("\n\n Digite o primeiro valor a se calcular: ")
 			leia(valor1)
-			escreva("Digite o segundo valor a se calcular: ")
+			escreva(" Digite o segundo valor a se calcular: ")
 			leia(valor2)
 			soma = valor1 + valor2
 			escreva("\n")
-			escreva("-------------------------------------------- \n" + "A Soma entre " + valor1 + " e: " + valor2 + " é igual a: " + soma + "\n")
+			escreva("-------------------------------------------- \n" + "A Soma entre " + valor1 + " e " + valor2 + " é igual a: " + soma + "\n")
 			multi = valor1 * valor2
-			escreva("A multiplicação entre: " + valor1 + " e: " + valor2 + " é igual a: " + multi + "\n")
+			escreva("A multiplicação entre: " + valor1 + " e " + valor2 + " é igual a: " + multi + "\n")
 			divisao = valor1 / valor2
-			escreva("A divisão entre: " + valor1 + " e: " + valor2 + " é igual a: " + divisao + "\n")
+			escreva("A divisão entre: " + valor1 + " e " + valor2 + " é igual a: " + divisao + "\n")
 			subtracao = valor1 - valor2
-			escreva("A subtração entre: " + valor1 + " e: " + valor2 + " é igual a: " + subtracao + "\n -------------------------------------------- \n")
+			escreva("A subtração entre: " + valor1 + " e " + valor2 + " é igual a: " + subtracao + "\n -------------------------------------------- \n")
 			
 			
 	}
@@ -41,7 +41,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2012; 
+ * @POSICAO-CURSOR = 1622; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
