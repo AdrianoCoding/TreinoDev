@@ -26,12 +26,10 @@ programa{
 			soma= num1 + num2
 			se(soma>20){
 				juro = soma + 8
-				escreva("  | MAIOR QUE 20 |  ")
-				escreva("O valor é:  " + soma + "  com ascrecimo de 8:  " + juro + "\n\n")
+				escreva("O valor é:  " + soma + "  com acrecimo de 8:  " + juro + "\n\n")
 				}senao{
 					juro = soma - 5
-					escreva(" | MENOR QUE 20 | \n\n")
-					escreva("o valor é:  " + soma + " com descrecimo de 5:  " + juro + "\n\n")
+					escreva("o valor é:  " + soma + " com decrecimo de 5:  " + juro + "\n\n")
 				}
 		}
 }
@@ -40,7 +38,7 @@ programa{
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1132; 
+ * @POSICAO-CURSOR = 1143; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
