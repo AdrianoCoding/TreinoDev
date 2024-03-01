@@ -1,18 +1,18 @@
 programa
 {
-	real num1, num2, nivel1, nivel2, nivel3, nivel_verificar, aula_verificar, calcular
+	real num1, num2, nivel1, nivel2, nivel3, nivel_verificar, aula_verificar, calcular
 	funcao inicio()
 	{
 		nivel1 = 12.0
 		nivel2 = 32.00
 		nivel3 = 60.00
 					// ascii de calculadora - INICIO
-escreva(" █████  ██████  ██████  ███████ ███    ██ ██████  ██ ███████ \n")
-escreva("██   ██ ██   ██ ██   ██ ██      ████   ██ ██   ██ ██    ███  \n")
-escreva("███████ ██████  ██████  █████   ██ ██  ██ ██   ██ ██   ███   \n")
-escreva("██   ██ ██      ██   ██ ██      ██  ██ ██ ██   ██ ██  ███    \n")
-escreva("██   ██ ██      ██   ██ ███████ ██   ████ ██████  ██ ███████ \n")
-escreva("        Sistema Escolar de Computadores - Aprendiz\n\n")                                                                
+escreva(" █████  ██████  ██████  ███████ ███    ██ ██████   ███████   ██████\n")
+escreva("██   ██ ██   ██ ██   ██ ██      ████   ██ ██   ██  ██        ██   ██\n")
+escreva("███████ ██████  ██████  █████   ██ ██  ██ ██   ██  █████     ██████ \n")
+escreva("██   ██ ██      ██   ██ ██      ██  ██ ██ ██   ██  ██        ██   ██\n")
+escreva("██   ██ ██      ██   ██ ███████ ██   ████ ██████   ███████   ██   ██\n")
+escreva("        Sistema Escolar de Computadores - Aprender\n\n")                                                                
                         // ascii de calculadora - Fim
 		escreva("|> De acordo com seu contrato, informe seu nivel: ")
 		leia(nivel_verificar)
@@ -44,7 +44,7 @@ escreva("        Sistema Escolar de Computadores - Aprendiz\n\n")
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 17; 
+ * @POSICAO-CURSOR = 671; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
