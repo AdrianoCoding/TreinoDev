@@ -8,6 +8,6 @@
 
 public class PrimeiroJava {
     public static void main(String[]args){
-    System.out.print("olá, mundo");
+    System.out.print("\nolá, mundo\n");
     }
 }
