@@ -1,12 +1,13 @@
 /*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+    ESTE TIPO DE COMENTARIO, É USADO PARA COMENTAR VARIAS LINHAS
+ É USADO BARRA E ASTERISCO E O MESMO CONTRARIO PARA FECHAR O COMENTARIO
+*/
 
-/**
- *
- * @author adriano
- */
+// O BARRA-BARRA, É USADO PARA COMENTAR APENAS UMA LINHA
+
+
 public class PrimeiroJava {
-    
+    public static void main(String[]args){
+    System.out.print("olá, mundo");
+    }
 }
