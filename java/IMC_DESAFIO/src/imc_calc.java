@@ -19,23 +19,23 @@ public class imc_calc {
     System.out.println("Digite seu sexo (F ou M): ");
     String sexo_usuario = sc.nextLine();
     if(sexo_usuario.equals("f")){
-        System.out.println("Ok, você é: MULHER \n");
-        System.out.println("Por favor, digite seu peso: ");
+        System.out.println("|> Por favor, digite seu peso: ");
         int peso_usuario = sc.nextInt();
-        System.out.println("Por favor, digite sua altura (em CM): ");
+        System.out.println("|> Por favor, digite sua altura (em CM): ");
         int altura_usuario = sc.nextInt();
         
         // Parte em que o usuario irá ver as informações coletadas
-        System.out.println("\n Verificando dados: ");
-        System.out.print("Sexo: " + sexo_usuario + "\n");
-        System.out.println("Peso: " + peso_usuario );
-        System.out.println("As informações estão corretas ? (S para sim ou N para não)");
-        String continuar_user = sc.nextLine();
-        if(continuar_user.equals("s")){
-            System.out.println("O peso ideal para tais parâmetros é: ");
+        System.out.println("\n --==Verificando dados==-- ");
+        System.out.println("|> Sexo: " + sexo_usuario + "   <|");
+        System.out.println("|> Peso: " + peso_usuario + "   <|");
+        System.out.println("|> Altura: " + altura_usuario + " <|");
+        // FIM parte em que o usuario irá ver as informações coletadas
+        
+        System.out.println("O peso ideal para tais parâmetros é: ");
+        double peso_adequado_usuario;
+        peso_adequado_usuario = (62.1 * (altura_usuario / 100)) - 44.7;
+        System.out.print("======= " + peso_adequado_usuario + " =======" + "\n");
         }
-    
-    }
     else if(sexo_usuario.equals("h")){
         System.out.println("Certo, você é: HOMEM");
         }
