@@ -36,7 +36,7 @@ public class imc_calc {
         System.out.println("|> Altura: " + altura_usuario + " <|");
         // FIM parte em que o usuario irá ver as informações coletadas
         
-        System.out.println("Seu IMC é: ");
+        System.out.println("Seu peso adequado é: ");
         double peso_adequado_usuario;
         peso_adequado_usuario = (62.1 * (altura_usuario / 100)) - 44.7;
         System.out.print("======= " + peso_adequado_usuario + " =======" + "\n");
@@ -69,7 +69,7 @@ public class imc_calc {
         System.out.println("|> Altura: " + altura_usuario + " <|");
         // FIM parte em que o usuario irá ver as informações coletadas
         
-        System.out.println("Seu IMC é: ");
+        System.out.println("Seu peso adequado é ");
         double peso_adequado_usuario;
         peso_adequado_usuario = (72.7 * (altura_usuario / 100)) - 44.7;
         System.out.print("======= " + peso_adequado_usuario + " =======" + "\n");
