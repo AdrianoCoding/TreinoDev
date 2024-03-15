@@ -37,7 +37,22 @@ public class imc_calc {
         System.out.print("======= " + peso_adequado_usuario + " =======" + "\n");
         }
     else if(sexo_usuario.equals("h")){
-        System.out.println("Certo, você é: HOMEM");
+        System.out.println("|> Por favor, digite seu peso: ");
+        int peso_usuario = sc.nextInt();
+        System.out.println("|> Por favor, digite sua altura (em CM): ");
+        int altura_usuario = sc.nextInt();
+        
+        // Parte em que o usuario irá ver as informações coletadas
+        System.out.println("\n --==Verificando dados==-- ");
+        System.out.println("|> Sexo: " + sexo_usuario + "   <|");
+        System.out.println("|> Peso: " + peso_usuario + "   <|");
+        System.out.println("|> Altura: " + altura_usuario + " <|");
+        // FIM parte em que o usuario irá ver as informações coletadas
+        
+        System.out.println("O peso ideal para tais parâmetros é: ");
+        double peso_adequado_usuario;
+        peso_adequado_usuario = (72.7 * (altura_usuario / 100)) - 44.7;
+        System.out.print("======= " + peso_adequado_usuario + " =======" + "\n");
         }
     else{
         System.out.println("O valor digitado não é VALIDO...");
