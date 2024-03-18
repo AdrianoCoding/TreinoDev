@@ -9,8 +9,9 @@ import java.util.Scanner;
 
 public class Atv2 {
     public static void main(String[]args){
-        Scanner sc = new Scanner(System.in);
 
+        Scanner sc = new Scanner(System.in);
+            
         System.out.println("\n|> Digite a primeira nota: ");
         int nota1 = sc.nextInt();
 
@@ -27,9 +28,14 @@ public class Atv2 {
 
         System.out.println("\nA nota de media é igual a: " + calc_media + "\n");
             if(calc_media >= 6){
+                System.out.println("-".repeat(30));
                 System.out.println(" ==== O aluno foi: APROVADO ====");
+                System.out.println("-".repeat(30));
             }else{
+                System.out.println("-".repeat(30));
                 System.out.println(" ==== O aluno foi REPROVADO ====");
+                System.out.println("-".repeat(30));
             }
-    }
-}
+            }
+        }
+    
