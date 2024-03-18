@@ -12,6 +12,7 @@ public class Atv1 {
 
         System.out.println("== Olá == \nDigite um número: ");
         int val = sc.nextInt();
+        sc.close();
 
             if( val > 0){
                 System.out.println("O valor digitado é POSITIVO");
