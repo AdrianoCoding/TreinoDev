@@ -15,12 +15,14 @@ emitir uma mensagem informando que o valor é inválido.
         int dia_user = sc.nextInt();
 
             if(dia_user >= 1 && dia_user <= 5){
-                System.out.print("É dia util");
+                System.out.print("Hoje é um dia útil. Vamos ser produtivos! \n");
             }
             else if( dia_user == 6){
-                System.out.print("É final de semana (SABADO)\n");
+                System.out.print("É sábado! Aproveite o final de semana!\n");
+            }else if( dia_user == 7){
+                System.out.print("É domingo! Aproveite o final de semana!\n");
             }else{
-                System.out.print("É final de semana (DOMINGO)\n");
+                System.out.print("O valor inserido está fora do intervalo permitido (1 a 7). Por favor, tente novamente. \n");
             }
 
         }
